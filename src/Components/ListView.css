@@ -1,0 +1,267 @@
+.left-panel{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    /* background-color: yellow; */
+}
+
+.left-panel .left-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 20%;
+    width: 100%;
+}
+
+.left-top button{
+    width: 95%;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+    border-radius: 5px;
+    box-shadow: inset -1px -1px 40px  rgba(0, 0, 255,.4);
+    border: none;
+    transition: 2s;
+}
+
+.left-top button:hover{
+     border: 2px solid black;
+    color: black;
+    /* background-color: rgba(0, 128, 0, 0.1); */   
+    letter-spacing: 2px; 
+}
+
+.left-top input{
+    width: 95%;
+    height: 1.7rem;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+
+.left-top .sort-block{
+    width: 95%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0 8rem; */
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.sort-block select{
+    width: 70%;
+    /* background-color: aqua; */
+    text-align: center;
+    border: 2px solid black;
+}
+
+.sort-block option{
+    border: 2px solid black;
+    letter-spacing: 2px;
+    margin: 1rem 0;
+}
+
+
+.left-panel .left-middle{
+ width: 100%;
+ height: 70%;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ border: 1px solid black;
+ flex-direction: column;
+ overflow-y: auto;
+ flex-grow: 1;
+}
+
+.left-middle .note-entry{
+    width: 95%;
+    height: 7.5rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    margin: 1rem 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+
+.note-entry:hover{
+    /* background-color: rgba(173, 216, 230, 0.4); */
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.selected-note{
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 10px solid black;
+}
+
+.note-entry p{
+    border-bottom: 1px solid black;
+    width: 95%;
+    padding: 0 .5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 1.5rem;
+    white-space: nowrap;
+    /* margin: .5rem 0; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.time-stamps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    border-bottom: 1px solid black;
+}
+
+.no-notes{
+    margin: auto;
+}
+
+.tb,.bb,.sb,.ub{
+    border: 1px solid black;
+    padding: 0.05rem .1rem;
+    border-radius: 3px;  
+    /* background-color: green; */
+    /* color: white;   */
+    margin-right: .2rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 .5rem;
+}
+
+.tb{
+    background-color: green;
+    color: white;
+}
+
+.bb{
+    background-color: blue;
+    color: white;
+}
+
+.sb{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* padding: 0 .2rem; */
+    border: none;
+    margin-right: .2rem;
+}
+
+.ub{
+    background-color: red;
+    color: white;
+    /* padding: 0 .2rem; */
+    border: none;
+    margin-right: .2rem;
+}
+#note-stamp{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: .8rem;
+    border: none;
+    /* justify-content: flex-end; */
+
+}
+
+#update-stamp{
+    text-align: center;
+    color: red;
+    font-size: .8rem;
+    border: none;
+
+}
+#note-title{
+    color: green;
+}
+
+#note-body{
+    color: blue;
+}
+
+#note-id{
+    text-align: end;
+    /* background-color: red; */
+    width: auto;
+    border-radius: 0 10px 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* position: absolute; */
+    font-size: .7rem;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0 1rem;
+    transform: translateX(90%);    
+}
+
+.left-panel .left-bottom{
+    height: 10%;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-bottom button{
+    width: 95%;
+    height: 90%;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+    box-shadow: inset -1px -1px 40px  rgba(255, 0, 0,.4);
+    border:none;
+    transition: 2s;
+
+}
+
+.left-bottom button:hover{
+    border: 2px solid black;
+    color: black;
+    /* background-color: rgba(0, 128, 0, 0.1); */
+    letter-spacing: 2px;
+}
+
+
+
+.no-of-notes{
+    background-color: black;
+    padding: .2rem .5rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: .9rem;
+}
+
+.no-of-notes span{
+    font-weight: bolder;
+    color: black;
+    height: 100%;
+    padding: 0 .4rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    /* font-size: .8rem; */
+}
+
+/* .no-of-notes span{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} */

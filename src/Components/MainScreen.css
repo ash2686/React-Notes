@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Caveat:wght@400..700&display=swap');
+
+.main-screen{
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+}
+
+.main-screen .screen-top{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+.screen-top input{
+    width: 95%;
+    height: 5%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    font-weight: bolder;
+    font-family: "Allan", serif;
+    font-size: 1.1rem;
+    color: black !important;
+    letter-spacing: 2px;
+}
+
+.screen-top textarea{
+    resize: none;
+    width: 95%;
+    height: 85%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: black !important;
+  letter-spacing: 2px;
+}
+
+.main-screen .screen-buttons{
+    width: 100%;
+    height: 10%;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.screen-buttons button{
+    width: 45%;
+    height: 90%;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    box-shadow: inset -1px -1px 40px  rgba(0, 128, 0,.4);
+    border: none;
+    transition: .5s;
+}
+
+.screen-buttons button:hover{
+    border: 2px solid black;
+    color: black;
+    letter-spacing: 2px;
+    /* background-color: rgba(0, 128, 0, 0.1); */
+    /* box-shadow: inset -1px -1px 40px  rgba(0, 128, 0,.4); */
+    
+}
+
