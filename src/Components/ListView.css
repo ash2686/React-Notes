@@ -23,14 +23,14 @@
     border-radius: 5px;
     box-shadow: inset -1px -1px 40px  rgba(0, 0, 255,.4);
     border: none;
-    transition: 2s;
+    /* transition: 2s; */
 }
 
 .left-top button:hover{
      border: 2px solid black;
     color: black;
     /* background-color: rgba(0, 128, 0, 0.1); */   
-    letter-spacing: 2px; 
+    /* letter-spacing: 2px;  */
 }
 
 .left-top input{
@@ -81,7 +81,7 @@
 .left-middle .note-entry{
     width: 95%;
     height: 7.5rem;
-    border: 1px solid black;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -226,7 +226,7 @@
     letter-spacing: 10px;
     box-shadow: inset -1px -1px 40px  rgba(255, 0, 0,.4);
     border:none;
-    transition: 2s;
+    /* transition: 2s; */
 
 }
 
@@ -234,7 +234,7 @@
     border: 2px solid black;
     color: black;
     /* background-color: rgba(0, 128, 0, 0.1); */
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
 }
 
 

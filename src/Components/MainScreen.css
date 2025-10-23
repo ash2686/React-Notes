@@ -28,7 +28,7 @@
     font-family: "Allan", serif;
     font-size: 1.1rem;
     color: black !important;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .screen-top textarea{
@@ -43,6 +43,15 @@
   font-style: normal;
   color: black !important;
   letter-spacing: 2px;
+  transition: .5s ease-out;
+  outline: 1px solid black;
+  border-radius: 5px;
+}
+
+.screen-top textarea:focus{
+    outline: 2px solid black;
+      border-radius: 5px;
+
 }
 
 .main-screen .screen-buttons{
@@ -60,15 +69,20 @@
     letter-spacing: 10px;
     box-shadow: inset -1px -1px 40px  rgba(0, 128, 0,.4);
     border: none;
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 .screen-buttons button:hover{
     border: 2px solid black;
     color: black;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     /* background-color: rgba(0, 128, 0, 0.1); */
     /* box-shadow: inset -1px -1px 40px  rgba(0, 128, 0,.4); */
     
+}
+
+#clear-button{
+        box-shadow: inset -1px -1px 40px  rgba(161, 161, 161, 0.4);
+
 }
 

@@ -61,7 +61,7 @@ const MainScreen = ({saveNote,clearNotes,onAddNoteHandler, clearArea,selectedNot
  
           <div className="screen-buttons">
             <button onClick={() => validNote()}> {selectedNote ? "Update - Note!" : "Save - Note"}</button>
-            <button onClick={()=>{if(confirm("Are you sure you want delete all notes?!"))clearNotes()}}>Clear - Notes</button>
+            <button id="clear-button" onClick={()=>{if(confirm("Are you sure you want delete all notes?!"))clearNotes()}}>Clear - Notes</button>
 
           </div>
             
